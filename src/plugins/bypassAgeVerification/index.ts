@@ -21,8 +21,8 @@ import definePlugin from "@utils/types";
 import { waitFor } from "@webpack";
 
 export default definePlugin({
-    name: "bypassAgeVerification",
-    description: "Jukes the client-side check for whether the user's account is able to view large (1000+ members) servers & nsfw channels.\nUseful if you don't want to send your ID and face to the three letter agencies.",
+    name: "I'm an adult",
+    description: "Tells discord you're in the adult age group, allowing you full access to large servers and nsfw channels",
     authors: [Devs.Chlora],
 
     start() {
